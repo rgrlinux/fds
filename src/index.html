@@ -1,0 +1,24 @@
+{% extends "template.html" %}
+
+{% set page="home" %}
+
+{% block meta %}
+  <title>Bem vindos a Flores do Sol</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+  {% include "parts/hero.html" %}
+
+  <main id="main">
+
+  
+    {% include "parts/product-section.html" %}
+
+    {% include "parts/contact-section.html" %}
+
+  </main><!-- End #main -->
+
+{% endblock %}
